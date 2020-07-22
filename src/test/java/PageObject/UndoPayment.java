@@ -8,16 +8,19 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import utilities.BrowserUtil;
 import utilities.ConfigReader;
 import utilities.DriverUtil;
+import utilities.JSUtil;
 
 public class UndoPayment {
     public UndoPayment() {
         PageFactory.initElements(DriverUtil.getDriver(), this);
     }
+
     public static Logger log = LogManager.getLogger(UndoPayment.class.getName());
 
-    @FindBy(xpath = "//div[@id=\'payform\']/div/a[2]")
+    @FindBy(xpath = "//div[@id='payform']/div/a[2]")
     WebElement cardPayment;
 
     @FindBy(xpath = "//*[@id='payment-form']/div[1]/div[1]/div/div/input")
@@ -41,11 +44,10 @@ public class UndoPayment {
     WebElement Activate;
 
 
-
     public void verifyPaymentPage() {
-        WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 20);
-        String expectedTitle = "undostres.com.mx - Recargas en línea Telcel, Movistar, Iusacell, Unefon, Nextel, Virgin, Cierto, Weex, Televia, Pase Urbano, IAVE, Viapass";
-        wait.until(ExpectedConditions.titleIs(expectedTitle));
+
+        String expectedTitle = ConfigReader.getProperty("PaymentPageTitle");
+        BrowserUtil.waitForPageToLoad(30);
         try {
             Assert.assertEquals(expectedTitle, DriverUtil.getDriver().getTitle());
             log.info("Navigated to Payment webpage");
@@ -58,7 +60,7 @@ public class UndoPayment {
 
     public void payment() {
         System.out.println(DriverUtil.getDriver().getTitle());
-
+        BrowserUtil.waitForVisibility(getCardPayment());
         // select card paymment
         getCardPayment().click();
         // card name

@@ -10,6 +10,7 @@ public class JSUtil {
         JavascriptExecutor js = (JavascriptExecutor) DriverUtil.getDriver();
         js.executeScript("return document.readyState").equals("complete");
     }
+
     public static void flashElement(WebElement element, WebDriver driver) {
         String bgColor = element.getCssValue("backgroundColor");
         for (int i = 0; i < 8; i++) {

@@ -37,13 +37,13 @@ public class Base {
         softAssert.assertAll();
         if (result.getStatus() == ITestResult.FAILURE) {
             //Using this method if I run my tests in class level not with maven
-            String screenshotLocation = BrowserUtil.getScreenshot(result.getName());
+            String screenshotLocation = BrowserUtil.getScreenshotPath(result.getName());
         }
-            DriverUtil.closeDriver();
-            log.info("browser closed");
-        }
-
+        DriverUtil.closeDriver();
+        log.info("browser closed");
     }
+
+}
 
 
 

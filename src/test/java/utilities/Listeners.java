@@ -15,84 +15,72 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 
-public class Listeners  extends BrowserUtil implements ITestListener {
-	ExtentReports extent = ExtentReportUtil.extentReportGenerator();
-	ExtentTest test;
-	ThreadLocal<ExtentTest> extentLocal = new ThreadLocal<ExtentTest>();
+public class Listeners extends BrowserUtil implements ITestListener {
+    ExtentReports extent = ExtentReportUtil.extentReportGenerator();
+    ExtentTest test;
+    ThreadLocal<ExtentTest> extentLocal = new ThreadLocal<ExtentTest>();
 
 
+    @Override
+    public void onTestSuccess(ITestResult result) {
+        // TODO Auto-generated method stub
+        extentLocal.get().log(Status.PASS, "Test Passed");
+    }
 
-	@Override
-	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
-		extentLocal.get().log(Status.PASS, "Test Passed");
-	}
+    @Override
+    public void onTestFailure(ITestResult result) {
+        String screenshotLocation = BrowserUtil.getScreenshotPath(result.getName());
+        extentLocal.get().log(Status.FAIL, "Failed");
+        extentLocal.get().fail(result.getThrowable());
+        try {
+            extentLocal.get().addScreenCaptureFromPath(screenshotLocation);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-	@Override
-	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		WebDriver driver = null;
-		extentLocal.get().fail(result.getThrowable());
-		String testMethodName = result.getMethod().getMethodName();
-		try {
-			driver = (WebDriver) result.getTestClass().getRealClass().getDeclaredField("driver")
-					.get(result.getInstance());
-		} catch (Exception e) {
-			System.out.println("Test Failed");
-		}
 
-		try {
-			extentLocal.get().addScreenCaptureFromPath(getScreenshot(testMethodName),
-					result.getMethod().getMethodName());
+    @Override
+    public void onTestSkipped(ITestResult result) {
 
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+    }
 
-	}
+    @Override
+    public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
 
-	@Override
-	public void onTestSkipped(ITestResult result) {
+    }
 
-	}
+    @Override
+    public void onFinish(ITestContext context) {
+        // TODO Auto-generated method stub
 
-	@Override
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
+        try {
+            MyScreenRecorder.stopRecording();
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        extent.flush();
+    }
 
-	}
+    @Override
+    public void onTestStart(ITestResult result) {
+        // TODO Auto-generated method stub
+        test = extent.createTest(result.getMethod().getMethodName());
+        extentLocal.set(test);
+        // TODO Auto-generated method stub
+        try {
+            MyScreenRecorder.startRecording(result.getMethod().getMethodName());
+        } catch (Exception e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
-	@Override
-	public void onFinish(ITestContext context) {
-		// TODO Auto-generated method stub
+    }
 
-		try {
-			MyScreenRecorder.stopRecording();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		extent.flush();
-	}
+    @Override
+    public void onStart(ITestContext context) {
+        // TODO Auto-generated method stub
 
-	@Override
-	public void onTestStart(ITestResult result) {
-		// TODO Auto-generated method stub
-		test = extent.createTest(result.getMethod().getMethodName());
-		extentLocal.set(test);
-		// TODO Auto-generated method stub
-		try {
-			MyScreenRecorder.startRecording(result.getMethod().getMethodName());
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-	}
-
-	@Override
-	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
-
-	}
+    }
 }

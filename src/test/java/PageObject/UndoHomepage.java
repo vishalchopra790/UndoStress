@@ -40,7 +40,7 @@ public class UndoHomepage {
     public void verifyHomepage() {
         DriverUtil.getDriver().get(ConfigReader.getProperty("url"));
         JSUtil.pageLoadColplte();
-        String actualTitle = "UnDosTres - Recargas en línea Telcel, Movistar, AT&T, Unefon, Virgin, Televia, Pase, Boletos de Cine, Pagos CFE";
+        String actualTitle = ConfigReader.getProperty("HomePageTitle");
         if (actualTitle.equalsIgnoreCase(DriverUtil.getDriver().getTitle())) {
             Assert.assertEquals(actualTitle, DriverUtil.getDriver().getTitle());
             log.info("Navigated to Home webpage and title is as expected");
