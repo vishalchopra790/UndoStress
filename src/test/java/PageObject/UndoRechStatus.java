@@ -32,10 +32,10 @@ public class UndoRechStatus {
     }
 
     public void successfullRecharge() {
-        BrowserUtil.fluentWait(statusMessage, DriverUtil.getDriver());
+        BrowserUtil.fluentWait(getStatusMessage(), DriverUtil.getDriver());
         String expectedMessage = "Recarga Saldo de Telcel al número " + ConfigReader.getProperty("mobileNumber");
-        if (expectedMessage.equalsIgnoreCase(statusMessage.getText())) {
-            Assert.assertEquals(expectedMessage, statusMessage.getText());
+        if (expectedMessage.equalsIgnoreCase(getStatusMessage().getText())) {
+            Assert.assertEquals(expectedMessage, getStatusMessage().getText());
             log.info("Recharge sucessfully for the number" + ConfigReader.getProperty("mobileNumber"));
         } else {
             log.error("Recharge not succesfull");
@@ -44,7 +44,7 @@ public class UndoRechStatus {
     }
 
     public void Status() {
-        String status = sucessStatus.getText();
+        String status = getSucessStatus().getText();
         if (status.contains("¡Exitosa!"))
             log.info("Recharge Successfully");
         else
