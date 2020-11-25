@@ -24,8 +24,8 @@ public class Base {
     public void setup() {
         driver = DriverUtil.getDriver();
         log.info(ConfigReader.getProperty("browser") + " launched");
-        DriverUtil.getDriver().manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        DriverUtil.getDriver().manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         softAssert = new SoftAssert();
         actions = new Actions(driver);
         pages = new Pages();
@@ -39,7 +39,7 @@ public class Base {
             //Using this method if I run my tests in class level not with maven
             String screenshotLocation = BrowserUtil.getScreenshotPath(result.getName());
         }
-        DriverUtil.closeDriver();
+
         log.info("browser closed");
     }
 

@@ -121,3 +121,9 @@
 01:26:51.445 [main] INFO  PageObject.UndoRechStatus - Recharge sucessfully for the number5523261151
 01:26:51.531 [main] INFO  PageObject.UndoRechStatus - Recharge Successfully
 01:26:56.933 [main] INFO  utilities.Base - browser closed
+11:05:16.111 [main] INFO  utilities.Base - chrome launched
+11:05:31.398 [main] INFO  PageObject.UndoHomepage - Navigated to Home webpage and title is as expected
+11:05:56.242 [main] INFO  PageObject.UndoPayment - Navigated to Payment webpage
+11:06:28.130 [main] INFO  PageObject.UndoRechStatus - Recharge sucessfully for the number5523261151
+11:06:28.196 [main] INFO  PageObject.UndoRechStatus - Recharge Successfully
+11:06:32.738 [main] INFO  utilities.Base - browser closed

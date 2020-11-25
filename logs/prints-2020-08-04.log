@@ -1,0 +1,6 @@
+17:42:00.914 [main] INFO  utilities.Base - chrome launched
+17:42:27.747 [main] INFO  PageObject.UndoHomepage - Navigated to Home webpage and title is as expected
+17:42:33.203 [main] ERROR PageObject.UndoPayment - Didn't navigate to payment webpage
+17:43:34.784 [main] INFO  PageObject.UndoRechStatus - Recharge sucessfully for the number5523261151
+17:43:34.836 [main] INFO  PageObject.UndoRechStatus - Recharge Successfully
+17:43:46.468 [main] INFO  utilities.Base - browser closed

@@ -59,12 +59,16 @@ public class BrowserUtil {
         WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 30);
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
+    public static void url(String url){
+        DriverUtil.getDriver().get(url);
+    }
+
 
     /**
      * Waits for provided element to be clickable
      */
     public static WebElement waitForClickablility(WebElement element) {
-        WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 15);
+        WebDriverWait wait = new WebDriverWait(DriverUtil.getDriver(), 25);
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
@@ -137,7 +141,7 @@ public class BrowserUtil {
 
     /**
      * waits for backgrounds processes on the browser to complete
-     */
+//     */
     public static void waitForPageToLoad(long timeOutInSeconds) {
         ExpectedCondition<Boolean> expectation = driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
         try {

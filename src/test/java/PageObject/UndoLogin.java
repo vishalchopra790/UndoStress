@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import utilities.BrowserUtil;
+
 import utilities.ConfigReader;
 import utilities.DriverUtil;
 
@@ -42,7 +42,7 @@ public class UndoLogin {
         getUsername().sendKeys(ConfigReader.getProperty("username"));
         // password
         getPassword().sendKeys(ConfigReader.getProperty("password"));
-        BrowserUtil.wait(2000);
+        //BrowserUtil.wait(2000);
         // captcha verification
         WebElement fr = getCaptchaFrame();
         DriverUtil.getDriver().switchTo().frame(fr);

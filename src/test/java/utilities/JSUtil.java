@@ -47,6 +47,8 @@ public class JSUtil {
     public static void generateJSAlert(String message) {
         JavascriptExecutor js = (JavascriptExecutor) DriverUtil.getDriver();
         js.executeScript("alert('" + message + "')");
+
+
     }
 
     public static void refreshPageByJS() {

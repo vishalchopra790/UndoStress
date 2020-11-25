@@ -35,7 +35,7 @@ public class DriverUtil {
                     HashMap<String, Object> chromePrefs = new HashMap<String, Object>();
                     chromePrefs.put("profile.default_content_settings.popups", 0);
                     chromePrefs.put("download.default_directory", downloadPath);
-                    driverPool.set(new ChromeDriver(new ChromeOptions().setExperimentalOption("prefs", chromePrefs)));
+                    driverPool.set(new ChromeDriver(new ChromeOptions() .addArguments("--disable-notifications") .addArguments("--disable-popup-blocking") .setExperimentalOption("prefs", chromePrefs)));
                     break;
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
@@ -100,6 +100,7 @@ public class DriverUtil {
             }
         }
         return driverPool.get();
+
     }
 
     public static void closeDriver() {
