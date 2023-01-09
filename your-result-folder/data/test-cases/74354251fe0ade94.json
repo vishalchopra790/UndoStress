@@ -1,0 +1,92 @@
+{
+  "uid" : "74354251fe0ade94",
+  "name" : "angry",
+  "fullName" : "Tests.SingleTest.angry",
+  "historyId" : "7472d3ce862780c6be0b7d70ab64aa60",
+  "time" : {
+    "start" : 1626694416346,
+    "stop" : 1626694419589,
+    "duration" : 3243
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626694414031,
+      "stop" : 1626694416265,
+      "duration" : 2234
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1626694419596,
+      "stop" : 1626694419598,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "angry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "22328@LT-PF1T61GZ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74354251fe0ade94.json",
+  "parameterValues" : [ ]
+}

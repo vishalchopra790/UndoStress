@@ -1,0 +1,118 @@
+{
+  "uid" : "3fa958c12f9ce777",
+  "name" : "angry",
+  "fullName" : "Tests.SingleTest.angry",
+  "historyId" : "7472d3ce862780c6be0b7d70ab64aa60",
+  "time" : {
+    "start" : 1626694436357,
+    "stop" : 1626694438419,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626694434108,
+      "stop" : 1626694436230,
+      "duration" : 2122
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1626694438430,
+      "stop" : 1626694438432,
+      "duration" : 2
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "angry"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "26820@LT-PF1T61GZ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "326439321a518d73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626694416346,
+        "stop" : 1626694419589,
+        "duration" : 3243
+      }
+    }, {
+      "uid" : "5d116ac6be4d0912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626693992246,
+        "stop" : 1626693993164,
+        "duration" : 918
+      }
+    }, {
+      "uid" : "53fb57aca8b995fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626693139676,
+        "stop" : 1626693141648,
+        "duration" : 1972
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fa958c12f9ce777.json",
+  "parameterValues" : [ ]
+}

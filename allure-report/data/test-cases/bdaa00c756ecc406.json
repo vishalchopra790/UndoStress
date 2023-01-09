@@ -1,0 +1,92 @@
+{
+  "uid" : "bdaa00c756ecc406",
+  "name" : "page",
+  "fullName" : "Tests.SingleTest.page",
+  "historyId" : "441f1af0eb918edeec77929d41cdee2",
+  "time" : {
+    "start" : 1626693141691,
+    "stop" : 1626693142040,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626693141663,
+      "stop" : 1626693141689,
+      "duration" : 26
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1626693142041,
+      "stop" : 1626693142042,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "12932@LT-PF1T61GZ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdaa00c756ecc406.json",
+  "parameterValues" : [ ]
+}

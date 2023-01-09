@@ -1,0 +1,110 @@
+{
+  "uid" : "8a6e7a526ea11c8f",
+  "name" : "Predicate",
+  "fullName" : "Tests.Amuthan.Java8.Predicatee.test",
+  "historyId" : "b39d56da5812b8d15d6ac964429dfecf",
+  "time" : {
+    "start" : 1626695703765,
+    "stop" : 1626695703889,
+    "duration" : 124
+  },
+  "description" : "Maths Test",
+  "descriptionHtml" : "<p>Maths Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestingSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "29160@LT-PF1T61GZ.TestNG-test=Test-2(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: Predicate"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "fd566a375635698e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626695360416,
+        "stop" : 1626695360529,
+        "duration" : 113
+      }
+    }, {
+      "uid" : "aeb00e7c7f0846b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626695182661,
+        "stop" : 1626695182675,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "b9b243b84463ea9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626694918224,
+        "stop" : 1626694918243,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "bc52629dca28eb63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626694722912,
+        "stop" : 1626694722926,
+        "duration" : 14
+      }
+    }, {
+      "uid" : "e7600a7c118f98c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626694079488,
+        "stop" : 1626694079634,
+        "duration" : 146
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a6e7a526ea11c8f.json",
+  "parameterValues" : [ ]
+}

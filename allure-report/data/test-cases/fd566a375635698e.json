@@ -1,0 +1,68 @@
+{
+  "uid" : "fd566a375635698e",
+  "name" : "Predicate",
+  "fullName" : "Tests.Amuthan.Java8.Predicatee.test",
+  "historyId" : "b39d56da5812b8d15d6ac964429dfecf",
+  "time" : {
+    "start" : 1626695360416,
+    "stop" : 1626695360529,
+    "duration" : 113
+  },
+  "description" : "Maths Test",
+  "descriptionHtml" : "<p>Maths Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestingSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "28584@LT-PF1T61GZ.TestNG-test=Test-2(15)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: Predicate"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd566a375635698e.json",
+  "parameterValues" : [ ]
+}

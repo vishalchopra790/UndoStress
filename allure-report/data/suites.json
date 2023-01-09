@@ -1,0 +1,94 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Command line suite",
+    "children" : [ {
+      "name" : "Command line test",
+      "children" : [ {
+        "name" : "Tests.SingleTest",
+        "children" : [ {
+          "name" : "angry",
+          "uid" : "3fa958c12f9ce777",
+          "parentUid" : "6bd835ccc4af1b8bd4f164e81f26666c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626694436357,
+            "stop" : 1626694438419,
+            "duration" : 2062
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "page",
+          "uid" : "ac5ca0b27ab744af",
+          "parentUid" : "6bd835ccc4af1b8bd4f164e81f26666c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626694438462,
+            "stop" : 1626694438898,
+            "duration" : 436
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test",
+          "uid" : "ed4b69f5f741c6c1",
+          "parentUid" : "6bd835ccc4af1b8bd4f164e81f26666c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626694438931,
+            "stop" : 1626694439342,
+            "duration" : 411
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6bd835ccc4af1b8bd4f164e81f26666c"
+      } ],
+      "uid" : "d25b44baf1a59b2ba9e824375ad84458"
+    } ],
+    "uid" : "a3ebd3885f734b5e692af432fe3ee17b"
+  }, {
+    "name" : "TestingSuite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "Tests.Amuthan.Java8.Predicatee",
+        "children" : [ {
+          "name" : "Predicate",
+          "uid" : "8a6e7a526ea11c8f",
+          "parentUid" : "3caa7b62d8257634c4b236ad902aca8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626695703765,
+            "stop" : 1626695703889,
+            "duration" : 124
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Amazon",
+          "uid" : "fe4ea048be5b3ee0",
+          "parentUid" : "3caa7b62d8257634c4b236ad902aca8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1626695703765,
+            "stop" : 1626695712167,
+            "duration" : 8402
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3caa7b62d8257634c4b236ad902aca8d"
+      } ],
+      "uid" : "7fc76b35f7dc343ee2f0b9637314e126"
+    } ],
+    "uid" : "15c24a963eb1d7f0a38c22c327e7ed44"
+  } ]
+}

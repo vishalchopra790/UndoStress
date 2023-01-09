@@ -1,0 +1,74 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "angry",
+    "uid" : "3fa958c12f9ce777",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626694436357,
+      "stop" : 1626694438419,
+      "duration" : 2062
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "page",
+    "uid" : "ac5ca0b27ab744af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626694438462,
+      "stop" : 1626694438898,
+      "duration" : 436
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test",
+    "uid" : "ed4b69f5f741c6c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1626694438931,
+      "stop" : 1626694439342,
+      "duration" : 411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Story: Predicate",
+    "children" : [ {
+      "name" : "Predicate",
+      "uid" : "8a6e7a526ea11c8f",
+      "parentUid" : "4aa84deda692c2e985eca3418476e1ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626695703765,
+        "stop" : 1626695703889,
+        "duration" : 124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Amazon",
+      "uid" : "fe4ea048be5b3ee0",
+      "parentUid" : "4aa84deda692c2e985eca3418476e1ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626695703765,
+        "stop" : 1626695712167,
+        "duration" : 8402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4aa84deda692c2e985eca3418476e1ef"
+  } ]
+}

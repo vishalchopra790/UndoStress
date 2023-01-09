@@ -1,0 +1,118 @@
+{
+  "uid" : "ed4b69f5f741c6c1",
+  "name" : "test",
+  "fullName" : "Tests.SingleTest.test",
+  "historyId" : "f4b0c04312a4fcca1e595425277af656",
+  "time" : {
+    "start" : 1626694438931,
+    "stop" : 1626694439342,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1626694438902,
+      "stop" : 1626694438928,
+      "duration" : 26
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1626694439347,
+      "stop" : 1626694439347,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.SingleTest"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "26820@LT-PF1T61GZ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6a4372064b9d20b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626694420519,
+        "stop" : 1626694420977,
+        "duration" : 458
+      }
+    }, {
+      "uid" : "274ee42d08e36558",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626693993672,
+        "stop" : 1626693994180,
+        "duration" : 508
+      }
+    }, {
+      "uid" : "a395fdcaaf279732",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626693142078,
+        "stop" : 1626693142460,
+        "duration" : 382
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed4b69f5f741c6c1.json",
+  "parameterValues" : [ ]
+}

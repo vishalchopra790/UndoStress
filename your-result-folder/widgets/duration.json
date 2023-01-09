@@ -1,0 +1,51 @@
+[ {
+  "uid" : "da71337bdf77cc09",
+  "name" : "Amazon",
+  "time" : {
+    "start" : 1626695703765,
+    "stop" : 1626695712167,
+    "duration" : 8402
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66600010ce6d69c5",
+  "name" : "Predicate",
+  "time" : {
+    "start" : 1626695703765,
+    "stop" : 1626695703889,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "17e6bcda908e02fe",
+  "name" : "page",
+  "time" : {
+    "start" : 1626694438462,
+    "stop" : 1626694438898,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "629e8ab941eeb131",
+  "name" : "test",
+  "time" : {
+    "start" : 1626694438931,
+    "stop" : 1626694439342,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e48a946d3aaffdeb",
+  "name" : "angry",
+  "time" : {
+    "start" : 1626694436357,
+    "stop" : 1626694438419,
+    "duration" : 2062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

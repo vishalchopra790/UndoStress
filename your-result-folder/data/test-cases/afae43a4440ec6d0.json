@@ -1,0 +1,68 @@
+{
+  "uid" : "afae43a4440ec6d0",
+  "name" : "Amazon",
+  "fullName" : "Tests.Amuthan.Java8.Predicatee.amazon",
+  "historyId" : "84321af343ef4e49ddefa37297ee04e4",
+  "time" : {
+    "start" : 1626694079488,
+    "stop" : 1626694086161,
+    "duration" : 6673
+  },
+  "description" : "Predicate Amazon Test",
+  "descriptionHtml" : "<p>Predicate Amazon Test</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "testMethod",
+    "value" : "amazon"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestingSuite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Tests.Amuthan.Java8.Predicatee"
+  }, {
+    "name" : "host",
+    "value" : "LT-PF1T61GZ"
+  }, {
+    "name" : "thread",
+    "value" : "6912@LT-PF1T61GZ.TestNG-test=Test-1(16)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story: Predicate"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afae43a4440ec6d0.json",
+  "parameterValues" : [ ]
+}

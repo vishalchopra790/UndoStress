@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 19 17:25:03 IST 2021","Mon Jul 19 17:25:12 IST 2021","8402","TestingSuite","Test","Tests.Amuthan.Java8.Predicatee","Tests.Amuthan.Java8.Predicatee","amazon","Amazon","Predicate Amazon Test"
+"passed","Mon Jul 19 17:25:03 IST 2021","Mon Jul 19 17:25:03 IST 2021","124","TestingSuite","Test","Tests.Amuthan.Java8.Predicatee","Tests.Amuthan.Java8.Predicatee","test","Predicate","Maths Test"
+"passed","Mon Jul 19 17:03:58 IST 2021","Mon Jul 19 17:03:58 IST 2021","436","Command line suite","Command line test","Tests.SingleTest","Tests.SingleTest","page","page",""
+"passed","Mon Jul 19 17:03:58 IST 2021","Mon Jul 19 17:03:59 IST 2021","411","Command line suite","Command line test","Tests.SingleTest","Tests.SingleTest","test","test",""
+"passed","Mon Jul 19 17:03:56 IST 2021","Mon Jul 19 17:03:58 IST 2021","2062","Command line suite","Command line test","Tests.SingleTest","Tests.SingleTest","angry","angry",""
